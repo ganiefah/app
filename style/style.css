@@ -12,6 +12,15 @@ body{
   
 }
 
+.test{
+    margin-top: 7rem !important;
+    margin-bottom:7rem !important;
+}
+
+.help{
+    margin-top: 7rem !important;
+}
+
 .home{
     height: max-content;
 }
@@ -305,13 +314,17 @@ form{
   
   .copyright {
     color: white !important;
-    margin-top:14px;
+    margin-top:2rem;
     margin-bottom:0;
     font-size:13px;
-    opacity:0.6;
     display: inline-flex !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
   }
   
+
+  h4{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
