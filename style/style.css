@@ -330,4 +330,233 @@ form{
     margin-right: 4rem;
   }
 
+  .submit {
+    display: inline-block;
+    width: 10rem !important;
+    height: 50px;
+    background-color: white !important;
+    border: 1px solid #7895B2;
+    box-shadow: 2px 2px black;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    border-radius: 5px !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+   }
+   
+   .submit::before,
+   .submit::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .submit::before {
+    left: -10px;
+    background: #7895B2;
+   }
+   
+   .submit::after {
+    right: -10px;
+    background: #97afc7;
+   }
+   
+   .submit:hover::before,
+   .submit:hover::after {
+    width: 58%;
+   }
+   
+   .submit:hover span {
+    color: white;
+    transition: 0.3s;
+   }
+   
+   .submit span {
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+  .clr {
+    display: inline-block;
+    width: 10rem !important;
+    height: 50px;
+    background-color: #b3cbe4 !important;
+    border: 1px solid #7895B2;
+    box-shadow: 2px 2px black;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    border-radius: 5px !important;
+   }
+   
+   .clr::before,
+   .clr::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .clr::before {
+    left: -10px;
+    background: #7895B2;
+   }
+   
+   .clr::after {
+    right: -10px;
+    background: #97afc7;
+   }
+   
+   .clr:hover::before,
+   .clr:hover::after {
+    width: 58%;
+   }
+   
+   .clr:hover span {
+    color: white;
+    transition: 0.3s;
+   }
+   
+   .clr span {
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+  .sub {
+    display: inline-block;
+    width: 10rem !important;
+    height: 50px;
+    background-color: #b3cbe4 !important;
+    border: 1px solid #7895B2;
+    box-shadow: 2px 2px black;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+    z-index: 1;
+    border-radius: 5px !important;
+    /* display: flex !important;
+    justify-content: center !important;
+    align-items: center !important; */
+   }
+   
+   .sub::before,
+   .sub::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    transform: skew(15deg);
+    transition: all 0.5s;
+    overflow: hidden;
+    z-index: -1;
+   }
+   
+   .sub::before {
+    left: -10px;
+    background: #7895B2;
+   }
+   
+   .sub::after {
+    right: -10px;
+    background: #97afc7;
+   }
+   
+   .sub:hover::before,
+   .sub:hover::after {
+    width: 58%;
+   }
+   
+   .sub:hover span {
+    color: white;
+    transition: 0.3s;
+   }
+   
+   .sub span {
+    font-size: 18px;
+    transition: all 0.3s ease-in;
+   }
+
+   .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    color: white !important;
+    text-decoration: underline 1px;
+   }
+
+ .contact{
+margin-top: 2rem;
+ }
+
+.col{
+  margin-left: 3rem !important;
+}
+
+.card{
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+  width: 18rem;
+}
+
+.img{
+  border-radius: 50rem;
+}
+
+.a{
+  text-decoration: none !important;
+  color: white !important;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 15px !important;
+  font-size: large;
+}
+
+
+
+.a:hover{
+  color: #2b74bd !important;
+}
+
+.li{
+  list-style: circle;
+  margin: 0.5rem;
   
+}
+
+.card-text {
+  height: 216px;
+  overflow: auto;
+}
+
+.freq{
+  margin-top: 2rem;
+}
+
+.team{
+  margin-top: 2rem;
+}
+

@@ -32,7 +32,7 @@
                 <a class="nav-link" href="/html/about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Us</a>
+                <a class="nav-link" href="/html/contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -40,10 +40,14 @@
       </nav>
 
       <div class="panel">
-        <h1>Quiz Application Using JavaScript</h1>
-        <div class="question" id="ques"></div>
+        <h1>Test Your Knowledge</h1>
+        <h3><div class="question" id="ques"></div></h3>
+        <div class="info">
         <div class="options" id="opt"></div>
-        <button onclick="checkAns()" id="btn">SUBMIT</button>
+      </div>
+      <center>
+        <button onclick="checkAns()" id="btn" class="submit">SUBMIT</button>
+      </center>
         <div id="score"></div>
     </div>
 

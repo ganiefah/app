@@ -48,6 +48,8 @@ const Questions = [{
 
 }]
 
+
+
 let currQuestion = 0
 let score = 0
 
@@ -62,6 +64,7 @@ function loadQues() {
 		const choicesdiv = document.createElement("div");
 		const choice = document.createElement("input");
 		const choiceLabel = document.createElement("label");
+        choice.classList.add('goat')
 
 		choice.type = "radio";
 		choice.name = "answer";
@@ -97,12 +100,18 @@ function nextQuestion() {
 
 function checkAns() {
 	const selectedAns = parseInt(document.querySelector('input[name="answer"]:checked').value);
+    console.log(selectedAns)
 
 	if (Questions[currQuestion].a[selectedAns].isCorrect) {
 		score++;
 		console.log("Correct")
+        alert('Well done!')
 		nextQuestion();
 	} else {
+        alert('Incorrect!')
 		nextQuestion();
 	}
 }
+
+
+
