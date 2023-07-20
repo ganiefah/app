@@ -25,7 +25,7 @@ const Questions = [{
 },
 {
 	q: "What is a credit report?",
-	a: [{ text: "A credit report is a more comprehensive summary of your credit history and credit score, detailing when and where you have applied for credit in the past 24 months, the current balance of your credit lines and the monthly instalment. ", isCorrect: true, isSelected: true },
+	a: [{ text: "A credit report is a more comprehensive summary of your credit history and credit score, detailing when and where you have applied for credit in the past 24 months. ", isCorrect: true, isSelected: true },
 	{ text: "A credit report is a way to see how much money you have.", isCorrect: false },
 	{ text: "A credit report is a way to see if you have debt.", isCorrect: false}
 	]
@@ -44,6 +44,38 @@ const Questions = [{
 	a: [{ text: "A good credit score will allow you to get cash back.", isCorrect: false },
 	{ text: "A good credit score will allow you to buy yourself food everyday.", isCorrect: false },
 	{ text: "A good credit score increases your likelihood of being offered credit when you apply for it and also gives you access to lower interest rates.", isCorrect: true }
+	]
+
+},
+{
+	q: "What affects my credit score?",
+	a: [{ text: "Your credit score is affected by how much debt you have and how you have repaid debt in the past. You gain points for paying off debt on time, and lose points for any missed or late payments.", isCorrect: true },
+	{ text: "Spending money on your boyfriend.", isCorrect: false },
+	{ text: "Buying yourself food everyday.", isCorrect: false }
+	]
+
+},
+{
+	q: "What are credit management coaches and how can they help me?",
+	a: [{ text: "A credit management coach is a personal coach who is able to complete a full debt assessment for you and then advises you on how to improve your credit status.", isCorrect: true },
+	{ text: "They are people that make sure you aren't broke.", isCorrect: false },
+	{ text: "They make sure you have fancy things.", isCorrect: false }
+	]
+
+},
+{
+	q: "What can I learn from my credit report?",
+	a: [{ text: "Your credit report shows the status of your accounts and whether they are closed, paid up, in arrears or written off.", isCorrect: true },
+	{ text: "How much money you have.", isCorrect: false },
+	{ text: "How much money you owe people.", isCorrect: false }
+	]
+
+},
+{
+	q: "Why do credit providers look at my credit score before granting credit?",
+	a: [{ text: "To see if you are a risk client.", isCorrect: false },
+	{ text: "To make sure you can pay them.", isCorrect: false },
+	{ text: "Credit providers want to gauge their level of risk when offering you credit. If you have a good credit score, it poses less of a risk to them and they will be more likely to grant you more credit and better interest rates.", isCorrect: true}
 	]
 
 }]
